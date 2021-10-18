@@ -1,7 +1,7 @@
 console.log("hello world!");
 let data_evento = new Date (2021,11,20);
 
-let data_submissao = new Date (2021,11,23);
+let data_submissao = new Date (year,month, day ) ;
 
 if( data_submissao <= data_evento) {
     console.log("Inscricao em analise!")
@@ -10,7 +10,7 @@ if( data_submissao <= data_evento) {
 }
 
 
-let inscrição_idade = 16;
+let inscrição_idade = () ;
 
 
 if(inscrição_idade >= 18) { 
@@ -19,7 +19,7 @@ if(inscrição_idade >= 18) {
     console.log("Cadastro recusado, idade mínima não atingida!")
 }
 
-let lista_participantes_nome = 104
+let lista_participantes_nome = ();
 for (contador = 1 ; contador <=101 ; contador ++ ) {
 
 } 
